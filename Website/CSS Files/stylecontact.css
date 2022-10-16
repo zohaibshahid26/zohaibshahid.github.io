@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" );
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+}
+html
+ {
+  font-size: 17px;
+
+ }
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1
+{
+    font-size: 1.7rem;
+}
+h2
+{
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+p
+{
+    font-size: 1.2rem;
+}
+header
+{
+    width: 100%;
+    height: 5em;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    z-index: 333;
+}
+.contain
+{ width: 96%;
+   max-width: 117rem;
+   margin: 0 auto;
+}
+.nav
+{ width:100%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   padding: 0 1.5rem;
+
+}
+.nav h1{
+    text-transform: uppercase;
+    color: #5b5963;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.nav ul{
+   display: flex;
+   align-items: center;
+   
+}
+.nav ul a{
+    
+
+    font-size: 1.2rem;
+    padding:1.5rem;
+    text-transform: uppercase;
+    color: #5b5963;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: all 0.4s ease;
+}
+.nav ul a:hover{
+    color: white;
+    background-color: #726765
+}
+ 
+
+body{
+    background: #fff;
+ 
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #000;  
+}
+.contact .content p{   
+    font-weight: 300;
+    color: #000;  
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: aliceblue
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0px;
+    display: flex;
+}
+.container .contactInfo .box .icon{
+min-width: 60px;
+height: 60px;
+padding-top: 5px;
+background: aliceblue;
+display: flex;
+justify-content: center;
+}
+.container .contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #000;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container .contactInfo .box .text h3{
+    font-weight: 500;
+    color: #00bcd4; 
+}
+.contactForm{
+    width: 40%;
+    padding: 40px;
+ 
+}
+.contactForm h2{
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+.contactForm .inputBox{
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+.contactForm .inputBox input,
+.contactForm .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none;
+}
+.contactForm .inputBox span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+.contactForm .inputBox input:focus ~ span,
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span,
+.contactForm .inputBox textarea:valid ~ span
+{
+    color: black;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+    border: 2px solid #000;
+    width: 100px;
+    background: #4c9099;
+    cursor: default;
+    font-size: 18px;
+}
+
+ 
+ footer{
+    background-color: aliceblue;
+    padding: 3rem 0;
+}
+.icons{
+    text-align: center;
+}
+.icons .social i{
+    font-size: 3rem;
+    color: grey;
+    padding: 1rem;
+    transition: all 0.4s ease;
+}
+.icons .social i:hover{
+    color: rgb(206, 203, 203);
+    cursor: pointer;
+}
+.icons .copyright p{
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    color: grey;
+    margin: 2rem 0;
+}
